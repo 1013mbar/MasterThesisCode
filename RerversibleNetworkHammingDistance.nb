@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     63411,       1569]
-NotebookOptionsPosition[     63014,       1551]
-NotebookOutlinePosition[     63385,       1567]
-CellTagsIndexPosition[     63342,       1564]
+NotebookDataLength[     74841,       1814]
+NotebookOptionsPosition[     74444,       1796]
+NotebookOutlinePosition[     74815,       1812]
+CellTagsIndexPosition[     74772,       1809]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1184,14 +1184,7 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"p1", " ", "=", 
      RowBox[{"Graph", "[", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"1", "\[Rule]", "2"}], ",", 
-         RowBox[{"2", "\[Rule]", "3"}], ",", 
-         RowBox[{"3", "\[Rule]", "4"}], ",", 
-         RowBox[{"4", "\[Rule]", "5"}], ",", 
-         RowBox[{"2", "\[Rule]", " ", "6"}]}], "}"}], ",", 
+      RowBox[{"net", ",", 
        RowBox[{"VertexLabels", "\[Rule]", "\"\<Name\>\""}], ",", 
        RowBox[{"EdgeStyle", "\[Rule]", 
         RowBox[{"Thickness", "[", ".005", "]"}]}], ",", 
@@ -1293,7 +1286,7 @@ Cell[BoxData[
   3.775905060975778*^9, 3.77590517526858*^9}, {3.7759052148995647`*^9, 
   3.7759053338623395`*^9}, {3.775905374973368*^9, 3.775905523425229*^9}, {
   3.775905587575639*^9, 3.7759056248050365`*^9}, {3.7759100977460184`*^9, 
-  3.7759101082078643`*^9}}],
+  3.7759101082078643`*^9}, {3.7763924502043004`*^9, 3.7763924504304667`*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{{}, {InsetBox[
@@ -1302,9 +1295,11 @@ Cell[BoxData[
        NamespaceBox["NetworkGraphics",
         DynamicModuleBox[{Typeset`graph = HoldComplete[
           
-          Graph[{1, 2, 3, 4, 5, 
-           6}, {{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {2, 6}}, Null}, {
-           EdgeShapeFunction -> {
+          Graph[{20, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+           17, 18, 19}, {{{1, 2}, {2, 3}, {3, 4}, {4, 5}, {5, 6}, {6, 7}, {7, 
+            8}, {8, 9}, {9, 10}, {10, 11}, {11, 12}, {12, 13}, {13, 14}, {14, 
+            15}, {15, 16}, {16, 17}, {17, 18}, {18, 19}, {19, 20}, {20, 1}}, 
+            Null}, {EdgeShapeFunction -> {
               GraphElementData[{"Arrow", "ArrowSize" -> 0.05}]}, EdgeStyle -> {
               Thickness[0.005]}, VertexLabels -> {"Name"}, VertexLabelStyle -> {
               Directive[
@@ -1313,21 +1308,88 @@ Cell[BoxData[
          TagBox[GraphicsGroupBox[{
             {Hue[0.6, 0.7, 0.5], Thickness[0.005], Opacity[0.7], 
              {Arrowheads[{{0.05, 0.8}}], 
-              ArrowBox[{{0., 0.}, {0.4343722427630694, 0.8687444855261388}}]}, 
+              ArrowBox[{{-0.3090169943749481, 
+               0.9510565162951538}, {-0.5877852522924737, 
+               0.809016994374948}}]}, 
              {Arrowheads[{{0.05, 0.8}}], 
-              ArrowBox[{{0.4343722427630694, 0.8687444855261388}, {
-               1.0859306069076735`, 1.7374889710522776`}}]}, 
+              ArrowBox[{{-0.5877852522924737, 
+               0.809016994374948}, {-0.8090169943749478, 
+               0.5877852522924739}}]}, 
              {Arrowheads[{{0.05, 0.8}}], 
-              ArrowBox[{{0.4343722427630694, 0.8687444855261388}, {
-               0.8687444855261388, 0.}}]}, 
+              ArrowBox[{{-0.8090169943749478, 
+               0.5877852522924739}, {-0.9510565162951538, 
+               0.3090169943749484}}]}, 
              {Arrowheads[{{0.05, 0.8}}], 
-              ArrowBox[{{1.0859306069076735`, 1.7374889710522776`}, {
-               1.7374889710522776`, 0.8687444855261388}}]}, 
+              ArrowBox[{{-0.9510565162951538, 0.3090169943749484}, {-1., 
+               1.0106430996148606`*^-15}}]}, 
              {Arrowheads[{{0.05, 0.8}}], 
-              ArrowBox[{{1.7374889710522776`, 0.8687444855261388}, {
-               1.7374889710522776`, 0.}}]}}, 
+              ArrowBox[{{-1., 
+               1.0106430996148606`*^-15}, {-0.9510565162951534, \
+-0.30901699437494645`}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{-0.9510565162951534, -0.30901699437494645`}, \
+{-0.809016994374947, -0.5877852522924722}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{-0.809016994374947, -0.5877852522924722}, \
+{-0.5877852522924726, -0.8090169943749468}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              
+              ArrowBox[{{-0.5877852522924726, -0.8090169943749468}, \
+{-0.30901699437494684`, -0.9510565162951532}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{-0.30901699437494684`, -0.9510565162951532}, {
+               6.049014748177263*^-16, -1.}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{6.049014748177263*^-16, -1.}, {
+               0.309016994374948, -0.9510565162951539}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.309016994374948, -0.9510565162951539}, {
+               0.5877852522924738, -0.8090169943749481}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.5877852522924738, -0.8090169943749481}, {
+               0.8090169943749479, -0.587785252292474}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.8090169943749479, -0.587785252292474}, {
+               0.9510565162951539, -0.3090169943749485}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.9510565162951539, -0.3090169943749485}, {
+               1., -1.133107779529596*^-15}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{1., -1.133107779529596*^-15}, {0.9510565162951533, 
+               0.30901699437494634`}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.9510565162951533, 0.30901699437494634`}, {
+               0.809016994374947, 0.5877852522924722}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.809016994374947, 0.5877852522924722}, {
+               0.5877852522924726, 0.8090169943749468}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.5877852522924726, 0.8090169943749468}, {
+               0.30901699437494673`, 0.9510565162951532}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{0.30901699437494673`, 
+               0.9510565162951532}, {-7.044813998280222*^-16, 1.}}]}, 
+             {Arrowheads[{{0.05, 0.8}}], 
+              ArrowBox[{{-7.044813998280222*^-16, 1.}, {-0.3090169943749481, 
+               0.9510565162951538}}]}}, 
             {Hue[0.6, 0.2, 0.8], EdgeForm[{GrayLevel[0], Opacity[
-             0.7]}], {DiskBox[{0., 0.}, 0.047780946703937635`], InsetBox[
+             0.7]}], {
+              DiskBox[{-0.3090169943749481, 0.9510565162951538}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["20",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {-0.29180920322052273`, 0.9682643074495791}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{-0.5877852522924737, 0.809016994374948}, 
+               0.01720779115442538], InsetBox[
                StyleBox["1",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1337,11 +1399,11 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {0.047780946703937635`, 0.047780946703937635`}],
-                ImageScaled[{0, 0}],
+               Offset[{2, 2}, {-0.5705774611380483, 0.8262247855293734}], 
+               ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}, {
-              DiskBox[{0.4343722427630694, 0.8687444855261388}, 
-               0.047780946703937635`], InsetBox[
+              DiskBox[{-0.8090169943749478, 0.5877852522924739}, 
+               0.01720779115442538], InsetBox[
                StyleBox["2",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1351,11 +1413,11 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {0.482153189467007, 0.9165254322300764}], 
+               Offset[{2, 2}, {-0.7918092032205224, 0.6049930434468993}], 
                ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}, {
-              DiskBox[{1.0859306069076735`, 1.7374889710522776`}, 
-               0.047780946703937635`], InsetBox[
+              DiskBox[{-0.9510565162951538, 0.3090169943749484}, 
+               0.01720779115442538], InsetBox[
                StyleBox["3",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1365,11 +1427,11 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {1.1337115536116111`, 1.7852699177562152`}], 
+               Offset[{2, 2}, {-0.9338487251407284, 0.3262247855293738}], 
                ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}, {
-              DiskBox[{1.7374889710522776`, 0.8687444855261388}, 
-               0.047780946703937635`], InsetBox[
+              DiskBox[{-1., 1.0106430996148606`*^-15}, 0.01720779115442538], 
+              InsetBox[
                StyleBox["4",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1379,11 +1441,11 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {1.7852699177562152`, 0.9165254322300764}], 
+               Offset[{2, 2}, {-0.9827922088455746, 0.01720779115442639}], 
                ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}, {
-              DiskBox[{1.7374889710522776`, 0.}, 0.047780946703937635`], 
-              InsetBox[
+              DiskBox[{-0.9510565162951534, -0.30901699437494645`}, 
+               0.01720779115442538], InsetBox[
                StyleBox["5",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1393,11 +1455,11 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {1.7852699177562152`, 0.047780946703937635`}], 
+               Offset[{2, 2}, {-0.933848725140728, -0.29180920322052106`}], 
                ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}, {
-              DiskBox[{0.8687444855261388, 0.}, 0.047780946703937635`], 
-              InsetBox[
+              DiskBox[{-0.809016994374947, -0.5877852522924722}, 
+               0.01720779115442538], InsetBox[
                StyleBox["6",
                 StripOnInput->False,
                 LineColor->GrayLevel[0],
@@ -1407,7 +1469,189 @@ Cell[BoxData[
                 FontFamily->"CMU Serif",
                 FontSize->16,
                 FontColor->GrayLevel[0]], 
-               Offset[{2, 2}, {0.9165254322300764, 0.047780946703937635`}], 
+               Offset[{2, 2}, {-0.7918092032205216, -0.5705774611380469}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{-0.5877852522924726, -0.8090169943749468}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["7",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {-0.5705774611380472, -0.7918092032205214}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{-0.30901699437494684`, -0.9510565162951532}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["8",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {-0.29180920322052145`, -0.9338487251407278}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{6.049014748177263*^-16, -1.}, 0.01720779115442538], 
+              InsetBox[
+               StyleBox["9",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.017207791154425982`, -0.9827922088455746}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.309016994374948, -0.9510565162951539}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["10",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.3262247855293734, -0.9338487251407285}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.5877852522924738, -0.8090169943749481}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["11",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.6049930434468992, -0.7918092032205227}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.8090169943749479, -0.587785252292474}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["12",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.8262247855293733, -0.5705774611380486}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.9510565162951539, -0.3090169943749485}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["13",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.9682643074495793, -0.2918092032205231}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{1., -1.133107779529596*^-15}, 0.01720779115442538], 
+              InsetBox[
+               StyleBox["14",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {1.0172077911544253`, 0.017207791154424244`}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.9510565162951533, 0.30901699437494634`}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["15",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.9682643074495787, 0.32622478552937173`}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.809016994374947, 0.5877852522924722}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["16",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.8262247855293724, 0.6049930434468976}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.5877852522924726, 0.8090169943749468}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["17",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.604993043446898, 0.8262247855293722}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{0.30901699437494673`, 0.9510565162951532}, 
+               0.01720779115442538], InsetBox[
+               StyleBox["18",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.3262247855293721, 0.9682643074495786}], 
+               ImageScaled[{0, 0}],
+               BaseStyle->"Graphics"]}, {
+              DiskBox[{-7.044813998280222*^-16, 1.}, 0.01720779115442538], 
+              InsetBox[
+               StyleBox["19",
+                StripOnInput->False,
+                LineColor->GrayLevel[0],
+                FrontFaceColor->GrayLevel[0],
+                BackFaceColor->GrayLevel[0],
+                GraphicsColor->GrayLevel[0],
+                FontFamily->"CMU Serif",
+                FontSize->16,
+                FontColor->GrayLevel[0]], 
+               Offset[{2, 2}, {0.017207791154424674`, 1.0172077911544253`}], 
                ImageScaled[{0, 0}],
                BaseStyle->"Graphics"]}}}],
           MouseAppearanceTag["NetworkGraphics"]],
@@ -1546,7 +1790,8 @@ M2WPC65xZkv/ACY4lwk=
   PlotRangePadding->{6, 5}]], "Output",
  CellChangeTimes->{{3.7759055052398524`*^9, 3.7759055248294835`*^9}, {
    3.77590558859686*^9, 3.775905625404394*^9}, 3.77639069234147*^9, {
-   3.776391356983655*^9, 3.7763913631194634`*^9}}]
+   3.776391356983655*^9, 3.7763913631194634`*^9}, 3.7763923911713*^9, 
+   3.7763924514301114`*^9}]
 }, Open  ]]
 },
 WindowSize->{1484, 917},
@@ -1568,8 +1813,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[558, 20, 42455, 1049, 2593, "Input"],
 Cell[CellGroupData[{
-Cell[43038, 1073, 8490, 222, 513, "Input"],
-Cell[51531, 1297, 11467, 251, 1167, "Output"]
+Cell[43038, 1073, 8270, 215, 513, "Input"],
+Cell[51311, 1290, 23117, 503, 1167, "Output"]
 }, Open  ]]
 }
 ]
